@@ -1,6 +1,6 @@
-import type { Matrix4 } from './matrix4';
+import type { Matrix4 } from '../matrix4';
 import type { Sphere } from './sphere';
-import { Vec3 } from './vec3';
+import { Vec3 } from '../vec3';
 
 /**
  * 三维包围盒

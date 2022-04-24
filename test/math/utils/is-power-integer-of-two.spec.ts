@@ -1,4 +1,4 @@
-import { isPowerIntegerOfTwo } from '../../math';
+import { isPowerIntegerOfTwo } from '@math';
 
 describe('test isPowerIntegerOfTwo', () => {
   test('the power of two', () => {

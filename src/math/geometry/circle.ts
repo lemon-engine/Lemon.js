@@ -1,5 +1,5 @@
 import type { Box2 } from './box2';
-import { Vec2 } from './vec2';
+import { Vec2 } from '../vec2';
 
 /**
  * @class 二维圆

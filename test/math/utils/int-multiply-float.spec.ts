@@ -1,4 +1,4 @@
-import { intMultiplyFloat } from '../../math';
+import { intMultiplyFloat } from '@math';
 
 describe('test intMultiplyFloat', () => {
   test('0 multiply float or int cases', () => {
@@ -21,4 +21,3 @@ describe('test intMultiplyFloat', () => {
     expect(intMultiplyFloat(1, 0.03)).toEqual(0.03);
   });
 });
-

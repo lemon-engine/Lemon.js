@@ -42,7 +42,7 @@ export const mapLinear = (
   a1: number,
   a2: number,
   b1: number,
-  b2: number,
+  b2: number
 ): number => b1 + ((x - a1) * (b2 - b1)) / (a2 - a1);
 
 // https://www.gamedev.net/tutorials/programming/general-and-gameplay-programming/inverse-lerp-a-super-useful-yet-often-overlooked-function-r5230/
@@ -191,7 +191,7 @@ export function resetObjectByRatio (obj: number[] | StringNumberType, ratio: num
 }
 
 export function resetPropertyByRatio (obj: number | number[] | StringNumberType, ratio: number, isIn = true): number | number[] | StringNumberType {
-  if(typeof obj === 'number') {
+  if (typeof obj === 'number') {
     return obj * ratio;
   } else {
     return resetObjectByRatio(obj, ratio, isIn);
