@@ -1,0 +1,62 @@
+{
+  "extends": "standard",
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "globals": {
+    "AlipayJSBridge": true
+  },
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "camelcase": 0,
+    "dot-notation": 0,
+    "no-case-declarations": 0,
+    "computed-property-spacing": 0,
+    "array-bracket-spacing": 0,
+    "no-mixed-operators": 0,
+    "space-before-function-paren": 0,
+    "no-use-before-define": 0,
+    // 实在受不了这个规则
+    "no-unused-vars": [
+      0,
+      {
+        // 允许声明未使用变量
+        "vars": "local",
+        // 参数不检查
+        "args": "none"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ],
+      "extends": [
+        "plugin:@typescript-eslint/recommended"
+      ],
+      "plugins": [
+        "@typescript-eslint"
+      ],
+      "rules": {
+        "suppressExcessPropertyErrors": "off",
+        "@typescript-eslint/no-empty-interface": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "lines-between-class-members": "off"
+      },
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "ecmaVersion": 2019,
+        "sourceType": "module"
+      }
+    }
+  ]
+}

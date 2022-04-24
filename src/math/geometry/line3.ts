@@ -1,4 +1,4 @@
-import { Vec3 } from './vec3';
+import { Vec3 } from '../vec3';
 
 /**
  * @class 三维线段

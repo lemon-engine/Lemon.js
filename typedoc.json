@@ -1,0 +1,11 @@
+{
+  "exclude": [
+    "**/utils.ts",
+    "**/constant.ts"
+  ],
+  "excludeExternals": true,
+  "excludePrivate": true,
+  "hideGenerator": true,
+  "includes": "./src",
+  "out": "docs"
+}

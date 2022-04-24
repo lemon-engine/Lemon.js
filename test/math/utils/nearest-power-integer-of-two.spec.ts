@@ -1,4 +1,4 @@
-import { nearestPowerIntegerOfTwo } from '../../math';
+import { nearestPowerIntegerOfTwo } from '@math';
 
 describe('test nearestPowerIntegerOfTwo', () => {
   test('the invalid number', () => {

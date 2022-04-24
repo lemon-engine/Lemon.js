@@ -1,4 +1,4 @@
-import { clamp } from '../../math'
+import { clamp } from '@math';
 
 describe('test clamp', () => {
   test('works as expected', () => {
@@ -60,4 +60,3 @@ describe('test clamp', () => {
     expect(clamp(-1, NaN, -5)).toEqual(-5);
   });
 });
-

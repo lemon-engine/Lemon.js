@@ -1,4 +1,4 @@
-import { roundNumber } from '../../math';
+import { roundNumber } from '@math';
 
 describe('test roundNumber', () => {
   test('use the default round function', () => {
